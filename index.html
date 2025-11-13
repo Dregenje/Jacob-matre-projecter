@@ -1,129 +1,90 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="UTF-8" />
-  <title>Mine Scratch-prosjekter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Scratch Spill</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #141e30, #243b55);
-      margin: 0;
-      padding: 40px;
-      text-align: center;
-      color: white;
-    }
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4ff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 30px;
-    }
+        h1 {
+            margin-bottom: 30px;
+        }
 
-    .game {
-      background: rgba(255, 255, 255, 0.15);
-      padding: 20px;
-      border-radius: 18px;
-      margin: 35px auto;
-      max-width: 600px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
+        /* GRID – 2 og 2 på linje */
+        .games {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            max-width: 900px;
+            margin: auto;
+        }
 
-    .game:hover {
-      transform: scale(1.04);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.45);
-    }
+        .game-box {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: 0.2s;
+        }
 
-    iframe {
-      border-radius: 12px;
-      margin-top: 15px;
-    }
+        .game-box:hover {
+            transform: scale(1.03);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.16);
+        }
 
-    p {
-      font-size: 1.1rem;
-      line-height: 1.5;
-    }
-
-    a {
-      color: #ffddaa;
-      text-decoration: underline;
-      font-size: 1.1rem;
-    }
-  </style>
+        iframe {
+            border-radius: 10px;
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+    </style>
 </head>
+
 <body>
+    <h1>Mine Scratch-prosjekter</h1>
 
-  <h1>Mine Scratch-prosjekter 🎮</h1>
+    <div class="games">
+        
+        <!-- Spill 1 -->
+        <div class="game-box">
+            <h3>Spill 1</h3>
+            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+        </div>
 
-  <!-- ⭐ SPILL 1 -->
-  <div class="game">
-    <h2>Spill 1 – Fiskespillet</h2>
-    <p>Dette er et spill der du skal prøve å få så mange fisk du klarer på 1 minutt.</p>
+        <!-- Spill 2 -->
+        <div class="game-box">
+            <h3>Spill 2</h3>
+            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+        </div>
 
-    <iframe src="https://scratch.mit.edu/projects/1221288683/embed"
-            allowtransparency="true"
-            width="485" height="402"
-            frameborder="0" scrolling="no"
-            allowfullscreen>
-    </iframe>
+        <!-- Spill 3 -->
+        <div class="game-box">
+            <h3>Spill 3</h3>
+            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+        </div>
 
-    <p><a href="https://scratch.mit.edu/projects/1221288683/" target="_blank">Åpne prosjektet på Scratch</a></p>
-  </div>
+        <!-- Spill 4 -->
+        <div class="game-box">
+            <h3>Spill 4</h3>
+            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+        </div>
 
+        <!-- Spill 5 -->
+        <div class="game-box">
+            <h3>Spill 5</h3>
+            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+        </div>
 
-  <!-- ⭐ SPILL 2 -->
-  <div class="game">
-    <h2>Spill 2 – Båt vs Planeter</h2>
-    <p>Du styrer båten med musepekeren og skyter planeter med SPACE.</p>
-
-    <iframe src="https://scratch.mit.edu/projects/1081713705/embed"
-            allowtransparency="true"
-            width="485" height="402"
-            frameborder="0" scrolling="no"
-            allowfullscreen>
-    </iframe>
-
-    <p><a href="https://scratch.mit.edu/projects/1081713705/" target="_blank">Åpne prosjektet på Scratch</a></p>
-  </div>
-
-
-  <!-- ⭐ SPILL 3 -->
-  <div class="game">
-    <h2>Spill 3 – Cookie Clicker</h2>
-    <p>
-      Et klikkespill hvor du samler cookies.  
-      Oppgraderinger:<br>
-      50 → +1 · 250 → +5 · 500 → +10 · 1000 → +45 · 2500 → +75
-    </p>
-
-    <iframe src="https://scratch.mit.edu/projects/1231359583/embed"
-            allowtransparency="true"
-            width="485" height="402"
-            frameborder="0" scrolling="no"
-            allowfullscreen>
-    </iframe>
-
-    <p><a href="https://scratch.mit.edu/projects/1231359583/" target="_blank">Åpne prosjektet på Scratch</a></p>
-  </div>
-
-
-  <!-- ⭐ SPILL 4 -->
-  <div class="game">
-    <h2>Spill 4 – Romskipkontroll</h2>
-    <p>
-      Styr romskipet med <b>W A S D</b>.  
-      Bruk musen for å snurre og sikte.
-    </p>
-
-    <iframe src="https://scratch.mit.edu/projects/1235856329/embed"
-            allowtransparency="true"
-            width="485" height="402"
-            frameborder="0" scrolling="no"
-            allowfullscreen>
-    </iframe>
-
-    <p><a href="https://scratch.mit.edu/projects/1235856329/" target="_blank">Åpne prosjektet på Scratch</a></p>
-  </div>
+    </div>
 
 </body>
 </html>
