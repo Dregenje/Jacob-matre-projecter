@@ -18,10 +18,10 @@
             margin-bottom: 30px;
         }
 
-        /* GRID – 2 og 2 på linje */
+        /* GRID – TVING 2 KOLONNER */
         .games {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr 1fr;  /* <-- TVING 2 OG 2 */
             gap: 25px;
             max-width: 900px;
             margin: auto;
@@ -46,6 +46,13 @@
             height: 300px;
             border: none;
         }
+
+        /* Hvis skjermen er veldig liten (mobil), gå til 1 kolonne */
+        @media (max-width: 600px) {
+            .games {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
@@ -54,34 +61,29 @@
 
     <div class="games">
         
-        <!-- Spill 1 -->
         <div class="game-box">
             <h3>Spill 1</h3>
-            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+            <iframe src="https://scratch.mit.edu/projects/ID1/embed"></iframe>
         </div>
 
-        <!-- Spill 2 -->
         <div class="game-box">
             <h3>Spill 2</h3>
-            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+            <iframe src="https://scratch.mit.edu/projects/ID2/embed"></iframe>
         </div>
 
-        <!-- Spill 3 -->
         <div class="game-box">
             <h3>Spill 3</h3>
-            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+            <iframe src="https://scratch.mit.edu/projects/ID3/embed"></iframe>
         </div>
 
-        <!-- Spill 4 -->
         <div class="game-box">
             <h3>Spill 4</h3>
-            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+            <iframe src="https://scratch.mit.edu/projects/ID4/embed"></iframe>
         </div>
 
-        <!-- Spill 5 -->
         <div class="game-box">
             <h3>Spill 5</h3>
-            <iframe src="https://scratch.mit.edu/projects/PUTT-INN-ID-HER/embed"></iframe>
+            <iframe src="https://scratch.mit.edu/projects/ID5/embed"></iframe>
         </div>
 
     </div>
