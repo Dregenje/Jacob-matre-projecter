@@ -5,7 +5,7 @@
   <title>Mitt Scratch-prosjekt</title>
 </head>
 <body>
-  <h1>Mitt Scratch-prosjekt</h1>
+  <h1>Fiske jafs</h1>
   <p>Dette er et spill der du skal prøve å få så mange fisk du klarer på 1 minutt.!</p>
 
   <iframe src="https://scratch.mit.edu/projects/1221288683/embed"
@@ -17,6 +17,30 @@
   </iframe>
 
   <p><a href="https://scratch.mit.edu/projects/1221288683/" target="_blank">
+    Åpne prosjektet på Scratch
+  </a></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mitt Scratch-prosjekt</title>
+</head>
+<body>
+  <h1>Ungå alle ting</h1>
+  <p>Du styrer båten med musepkekeren. Du trykker spacebar for å skyte baller mor jordklodene som kommer.!</p>
+
+  <iframe src="https://scratch.mit.edu/projects/1081713705/embed"
+          allowtransparency="true"
+          width="485" height="402"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen>
+  </iframe>
+
+  <p><a href="https://scratch.mit.edu/projects/1081713705/" target="_blank">
     Åpne prosjektet på Scratch
   </a></p>
 </body>
